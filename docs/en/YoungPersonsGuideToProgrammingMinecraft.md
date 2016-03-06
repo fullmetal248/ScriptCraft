@@ -1347,14 +1347,14 @@ different objects and methods available for use by ScriptCraft.
 [bkevts]: http://jd.bukkit.org/dev/apidocs/org/bukkit/event/package-summary.html
 [cmevts]: https://ci.visualillusionsent.net/job/CanaryLib/javadoc/net/canarymod/hook/package-summary.html
 [cmevts2]: API-Reference.md#events-helper-module-canary-version
-[img_echo_date]: img/ypgpm_echo_date.png
-[img_3d_shapes]: img/ypgpm_3dshapes.jpg
-[img_whd]: img/ypgpm_whd.jpg
-[img_dv]: img/ypgpm_datavalues.png
-[img_ed]: img/ypgpm_ex_dwell.png
-[img_2boxes]: img/ypgpm_2boxes.png
-[img_cr]: img/ypgpm_mc_cr.png
-[img_greet]: img/ypgpm_greet.png
-[img_ssf]: img/skyscraper_floor.png
-[img_ss]: img/skyscraper.png
+[img_echo_date]: ../img/ypgpm_echo_date.png
+[img_3d_shapes]: ../img/ypgpm_3dshapes.jpg
+[img_whd]: ../img/ypgpm_whd.jpg
+[img_dv]: ../img/ypgpm_datavalues.png
+[img_ed]: ../img/ypgpm_ex_dwell.png
+[img_2boxes]: ../img/ypgpm_2boxes.png
+[img_cr]: ../img/ypgpm_mc_cr.png
+[img_greet]: ../img/ypgpm_greet.png
+[img_ssf]: ../img/skyscraper_floor.png
+[img_ss]: ../img/skyscraper.png
 

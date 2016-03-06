@@ -171,5 +171,5 @@ using the `/jsp` command. I hope this will give potential Minecraft
 modders a feel for just how easy it can be to change the game to suit 
 their needs. 
 
-[1]: img/scriptcraft-chat-color.png
+[1]: ../img/scriptcraft-chat-color.png
 

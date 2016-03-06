@@ -3454,7 +3454,7 @@ Drones can be created in any of the following ways...
           
     ... which will move the drone up one block as soon as it's created.
 
-    ![corner stone](img/cornerstone1.png)
+    ![corner stone](../img/cornerstone1.png)
 
  3. Or by using the following form...
     
@@ -3506,7 +3506,7 @@ To create a black structure 4 blocks wide, 9 blocks tall and 1 block long...
     var drone = new Drone(self);
     drone.box(blocks.wool.black, 4, 9, 1);
 
-![box example 1](img/boxex1.png)
+![box example 1](../img/boxex1.png)
     
 ### Drone.box0() method
 
@@ -3526,7 +3526,7 @@ To create a stone building with the insided hollowed out 7 wide by 3 tall by 6 l
 
     box0( blocks.stone, 7, 3, 6);
 
-![example box0](img/box0ex1.png)
+![example box0](../img/box0ex1.png)
    
 ### Drone.boxa() method
 
@@ -3548,7 +3548,7 @@ Construct a rainbow-colored road 100 blocks long...
     
     boxa(rainbowColors,7,1,30);
 
-![boxa example](img/boxaex1.png)
+![boxa example](../img/boxaex1.png)
 
 ### Chaining
 
@@ -3731,7 +3731,7 @@ Another example: This statement creates a row of trees 2 by 3:
 
 &hellip; You can see the results below.
 
-![times example 1](img/times-trees.png)
+![times example 1](../img/times-trees.png)
 
 ### Drone.arc() method
 
@@ -3767,7 +3767,7 @@ stroke width of 2 blocks ...
          fill: false
          } );
 
-![arc example 1](img/arcex1.png)
+![arc example 1](../img/arcex1.png)
 
 [bres]: http://en.wikipedia.org/wiki/Midpoint_circle_algorithm
 [dv]: http://www.minecraftwiki.net/wiki/Data_values
@@ -3810,7 +3810,7 @@ To create a 2-line high message using glowstone...
 
 ![blocktype example][imgbt1]
 
-[imgbt1]: img/blocktype1.png
+[imgbt1]: ../img/blocktype1.png
 
 ### Copy & Paste using Drone
 
@@ -3871,7 +3871,7 @@ To create a cylinder of Iron 7 blocks in radius and 1 block high...
 
     cylinder(blocks.iron, 7 , 1);
 
-![cylinder example](img/cylinderex1.png)
+![cylinder example](../img/cylinderex1.png)
 
 ### Drone.cylinder0() method
 
@@ -3883,7 +3883,7 @@ To create a hollow cylinder of Iron 7 blocks in radius and 1 block high...
 
     cylinder0(blocks.iron, 7, 1);
 
-![cylinder0 example](img/cylinder0ex1.png)
+![cylinder0 example](../img/cylinder0ex1.png)
 
 ### Drone.door() method
 
@@ -3904,7 +3904,7 @@ To create an iron door...
 
     drone.door( blocks.door_iron );
 
-![iron door](img/doorex1.png)
+![iron door](../img/doorex1.png)
 
 ### Drone.door_iron() method
 
@@ -3924,7 +3924,7 @@ To create double-doors at the cross-hairs/drone's location...
 
     drone.door2();
 
-![double doors](img/door2ex1.png)
+![double doors](../img/door2ex1.png)
 
 ### Drone.door2_iron() method
 
@@ -3956,7 +3956,7 @@ To create a garden 10 blocks wide by 5 blocks long...
 
     garden(10,5);
 
-![garden example](img/gardenex1.png)
+![garden example](../img/gardenex1.png)
 
 ### Drone.ladder() method
 
@@ -4058,7 +4058,7 @@ Creates a prism. This is useful for roofs on houses.
 
     prism(blocks.oak,3,12);
 
-![prism example](img/prismex1.png)
+![prism example](../img/prismex1.png)
 
 ### Drone.prism0() method
 
@@ -4098,7 +4098,7 @@ Creates a wall sign (A sign attached to a wall)
 
     drone.wallsign(['Welcome','to','Scriptopia']);
 
-![wall sign](img/signex2.png)
+![wall sign](../img/signex2.png)
 
 ### Drone.signpost() method
 
@@ -4112,7 +4112,7 @@ Creates a free-standing signpost
 
     drone.signpost(['Hello','World']);
 
-![ground sign](img/signex1.png)
+![ground sign](../img/signex1.png)
 
 ### Drone.sign() method
 
@@ -4131,13 +4131,13 @@ To create a free-standing sign...
 
     drone.sign(["Hello","World"], blocks.sign_post);
 
-![ground sign](img/signex1.png)
+![ground sign](../img/signex1.png)
 
 ... to create a wall mounted sign...
 
     drone.sign(["Welcome","to","Scriptopia"], blocks.sign );
 
-![wall sign](img/signex2.png)
+![wall sign](../img/signex2.png)
 
 ### Drone.sphere() method
 
@@ -4154,7 +4154,7 @@ To create a sphere of Iron with a radius of 10 blocks...
 
     sphere( blocks.iron, 10);
 
-![sphere example](img/sphereex1.png)
+![sphere example](../img/sphereex1.png)
 
 Spheres are time-consuming to make. You *can* make large spheres (250 radius) but expect the
 server to be very busy for a couple of minutes while doing so.
@@ -4193,7 +4193,7 @@ To create a wood 'north' hemisphere with a radius of 7 blocks...
 
     hemisphere(blocks.oak, 7, 'north');
 
-![hemisphere example](img/hemisphereex1.png)
+![hemisphere example](../img/hemisphereex1.png)
 
 ### Drone.hemisphere0() method
 
@@ -4211,7 +4211,7 @@ To create a glass 'north' hemisphere with a radius of 20 blocks...
 
     hemisphere0(blocks.glass, 20, 'north');
 
-![hemisphere example](img/hemisphereex2.png)
+![hemisphere example](../img/hemisphereex2.png)
 
 ### Drone.stairs() function
 
@@ -4262,7 +4262,7 @@ ground. Trees will usually grow if the drone's current location is
 occupied by Air and is directly above an area of grass (That is why
 the `up()` method is called first).
 
-![tree example](img/treeex1.png)
+![tree example](../img/treeex1.png)
 
 None of the tree methods require parameters. Tree methods will only be
 successful if the tree is placed on grass in a setting where trees can
@@ -4292,7 +4292,7 @@ Alternatively you can create a new Drone object from a Player or Location object
 var d = new Drone(player);
 d.castle();
 ```
-![castle example](img/castleex1.png)
+![castle example](../img/castleex1.png)
 
 ### Drone.chessboard() method
 
@@ -4319,7 +4319,7 @@ Alternatively you can create a new Drone object from a Player or Location object
 var d = new Drone(player);
 d.chessboard();
 ```
-![chessboard example](img/chessboardex1.png)
+![chessboard example](../img/chessboardex1.png)
 
 ### Drone.cottage() method
 
@@ -4339,7 +4339,7 @@ Alternatively you can create a new Drone object from a Player or Location object
 var d = new Drone(player);
 d.cottage();
 ```
-![cottage example](img/cottageex1.png)
+![cottage example](../img/cottageex1.png)
 
 ### Drone.cottage_road() method
 
@@ -4363,7 +4363,7 @@ Alternatively you can create a new Drone object from a Player or Location object
 var d = new Drone(player);
 d.cottage_road();
 ```
-![cottage_road example](img/cottageroadex1.png)
+![cottage_road example](../img/cottageroadex1.png)
 
 ### Drone.dancefloor() method
 Create an animated dance floor of colored tiles some of which emit light.
@@ -4392,7 +4392,7 @@ d.dancefloor();
 ```
 
 [ytdance]: http://www.youtube.com/watch?v=UEooBt6NTFo
-![dancefloor example](img/dancefloorex1.png)
+![dancefloor example](../img/dancefloorex1.png)
 ### Drone.fort() method
 
 Constructs a medieval fort.
@@ -4416,7 +4416,7 @@ Alternatively you can create a new Drone object from a Player or Location object
 var d = new Drone(player);
 d.fort();
 ```
-![fort example](img/fortex1.png)
+![fort example](../img/fortex1.png)
 
 ### Drone.hangtorch() method
 
@@ -4469,7 +4469,7 @@ var d = new Drone(player);
 d.lcdclock();
 d.stopLCD();
 ```
-![lcdclock example](img/lcdclockex1.png)
+![lcdclock example](../img/lcdclockex1.png)
 ### Drone.logojs() method
 
 Constructs a large Javascript Logo (black JS on Yellow background)
@@ -4503,7 +4503,7 @@ Alternatively you can create a new Drone object from a Player or Location object
 var d = new Drone(player);
 d.maze();
 ```
-![maze example](img/mazeex1.png)
+![maze example](../img/mazeex1.png)
 
 ### Drone.rainbow() method
 
@@ -4527,7 +4527,7 @@ var d = new Drone(player);
 d.rainbow(30);
 ```
 
-![rainbow example](img/rainbowex1.png)
+![rainbow example](../img/rainbowex1.png)
 
 ### Drone.spiral_stairs() method
 
@@ -4548,7 +4548,7 @@ Constructs a spiral staircase with slabs at each corner.
    - 'quartz'
  * flights - The number of flights of stairs to build.
 
-![Spiral Staircase](img/spiralstair1.png)
+![Spiral Staircase](../img/spiralstair1.png)
 
 #### Example
 
@@ -4578,7 +4578,7 @@ Alternatively you can create a new Drone object from a Player or Location object
 var d = new Drone(player);
 d.temple();
 ```
-![temple example](img/templeex1.png)
+![temple example](../img/templeex1.png)
 
 ## The at Module
 
@@ -4674,7 +4674,7 @@ location. For example...
     /js var fireworks = require('fireworks');
     /js fireworks.firework( self.location );
 
-![firework example](img/firework.png)
+![firework example](../img/firework.png)
 
 ## Inventory Module
 This module provides functions to add items to, remove items from and check the 
@@ -6147,7 +6147,7 @@ cows (hint: use the same keyboard keys you'd use for opening doors).
 Every time you click a cow your score increases by 1 point. Your score
 is displayed in a side-bar along the right edge of of the screen.
 
-![cow clicker](img/cowclicker.png)
+![cow clicker](../img/cowclicker.png)
 
 ### Rules
 
