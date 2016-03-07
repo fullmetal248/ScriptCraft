@@ -70,7 +70,7 @@ Javascriptエンジンはパッケージをimport(読み込む)する`importPack
 
 ## 概要
 
-ScriptCraftでモジュールやプラグインを記述する時、JavaBeanのプロパティを読み書きするためにJavaの.get{PropertyName}()や.set{PropertyName}()メソッドを使用する代わりに簡潔な.{propertyName}と記述出来ます。これによりコードをより簡潔に出来ます。この簡潔な表記法はJava6移行に組み込まれているJavascriptエンジンによって提供されています。Javascriptはprivateなメンバーにはアクセスしませんが、なんと.{propertyName}表記は自動的に適切なJavaの.get{PropertyName}()や.set{PropertyName}()に変換されます。
+ScriptCraftでモジュールやプラグインを記述する時、JavaBeanのプロパティを読み書きするためにJavaの.get{PropertyName}()や.set{PropertyName}()メソッドを使用する代わりに簡潔な.{propertyName}と記述出来ます。これによりコードをより簡潔に出来ます。この簡潔な表記法はJava6以降に組み込まれているJavascriptエンジンによって提供されています。Javascriptはprivateなメンバーにはアクセスしませんが、なんと.{propertyName}表記は自動的に適切なJavaの.get{PropertyName}()や.set{PropertyName}()に変換されます。
 
 [bukapi]: http://jd.bukkit.org/beta/apidocs/
 [bukpl]: http://jd.bukkit.org/beta/apidocs/org/bukkit/entity/Player.html
